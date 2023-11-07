@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+/* NAVBAR AND MAIN S*/
+
+.navbar ul{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    list-style-type: none;
+    background-color: rgb(43, 39, 39);
+    z-index: 1;   
+    
+}
+.navbar li{
+    padding:0 ;
+    margin: 0;
+    font-size: 18px;
+    display: inline;
+    float: left;
+    
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: block;
+    background-color:rgb(43, 39, 39);
+    padding: 8px;
+}
+.navbar li a:hover {
+    background-color: rgb(70, 66, 66);
+    color: white;
+}
+
+
+.main {
+    background-image: url("Image/tunes.jpg");
+    color: aliceblue;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* MUSIC SECTION  */
+
+.icon i{
+    font-size: 80px;
+}
+.music{
+    background-color: rgb(48, 46, 46);
+   text-align: center;
+   color: white;
+   margin-top: -20px;
+}
+.music-container a{
+    padding: 15px;
+    border-radius: 7px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
+
+.music-container a:hover{
+    color: rgb(189, 177, 177);
+    background-color: rgb(212, 116, 116);
+
+}
+
+/*  VIDEO SECTION  */
+
+.video{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.video-button{
+    background-color: rgb(92, 81, 241);
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.video-button:hover{
+    color: rgb(232, 236, 240);
+    background-color: rgb(127, 127, 148);
+}
+
+
+/* ENJOYMENT SECTION */
+.enjoy-container{
+    text-align: center;
+    background-image: url("Image/background2.jpg");
+    background-position: center;
+    color: white;
+    height: 600px;
+    background-repeat:no-repeat;
+    background-size: 100%;
+    
+}
+.para{
+    margin-top: 20px;
+    text-align: center;
+}
+
+  .enjoy-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  /*  height: 100vh; /* To center vertically */
+    color: aliceblue;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+/* GIFT CARD */
+
+.gift-card{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: left;
+    
+  }
+  
+ div h3{
+    margin-top: 50px;
+ }
+
+  .kgf{
+    justify-content: center;
+    font-family: serif;
+    font-size: 20px;
+}
+
+.gift-para a{
+    text-decoration: none;
+    color: rgb(43, 0, 170);
+}
+
+/* FOOTER  */
+
+.footer-bar{
+    display: flex;
+    color: white;
+    background-color: rgb(43, 39, 39);
+    text-align: left;
+    justify-content: center;
+    padding: 60px;
+}
+
+.footer-bar ul a {
+      text-decoration: none;  
+}
+
+.footer-bar li{
+    color: white;
+    list-style-type: none; 
+}
+
+.footer-bar a {
+    color: white;
+}
+
+
+.copy{
+    display: flex;
+    color: white;
+    background-color: rgb(53, 50, 50);
+    text-align: left;
+    justify-content: center;
+    padding: 15px;
+}
+
+.footer-bar li:hover{
+    color: rgb(126, 121, 121);
+}
+
+.footer-bar li a:hover{
+    color: rgb(126, 121, 120);
+}
